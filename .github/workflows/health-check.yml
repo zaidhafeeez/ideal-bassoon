@@ -1,0 +1,22 @@
+name: Scheduled Health Check
+
+# Controls when the action will run.
+on:
+  schedule:
+    - cron: "0,15,30,45 * * * *"
+  workflow_dispatch:
+
+jobs:
+  health_check_job:
+    strategy:
+      matrix:
+        os: ['ubuntu-24.04']
+    runs-on: ${{ matrix.os }}
+    name: Check all sites
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4.1.6
+
+      - name: Run Shell Script
+        id: shell_script_run
+        run: bash ./health-check.sh
