@@ -65,6 +65,29 @@ do
   fi
 done
 
+# Generate services.json for status page
+echo "[" > logs/services.json
+for (( index=0; index < ${#KEYSARRAY[@]}; index++))
+do
+  key="${KEYSARRAY[index]}"
+  lastStatus=$(tail -n 1 "logs/${key}_report.log" | cut -d',' -f2)
+  lastCheck=$(tail -n 1 "logs/${key}_report.log" | cut -d',' -f1)
+  uptime=$(grep -c "success" "logs/${key}_report.log")
+  total=$(wc -l < "logs/${key}_report.log")
+  uptimePercent=$((uptime * 100 / total))
+  
+  echo "{\"name\":\"$key\",\"lastStatus\":\"$lastStatus\",\"lastCheck\":\"$lastCheck\",\"uptime\":$uptimePercent}" >> logs/services.json
+  if [ $index -lt $((${#KEYSARRAY[@]} - 1)) ]; then
+    echo "," >> logs/services.json
+  fi
+done
+echo "]" >> logs/services.json
+
+# Copy web files to logs directory
+cp status-page.html logs/index.html
+cp styles.css logs/
+cp status.js logs/
+
 if [[ $commit == true ]]
 then
   # Git configuration for automated commits
