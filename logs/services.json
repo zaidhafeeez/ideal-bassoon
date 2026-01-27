@@ -1,41 +1,41 @@
 [
-{"name":"google","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":99}
+{"name":"google","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":99}
 ,
-{"name":"facebook","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":99}
+{"name":"facebook","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":99}
 ,
-{"name":"twitter","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":99}
+{"name":"twitter","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":99}
 ,
-{"name":"instagram","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":97}
+{"name":"instagram","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":97}
 ,
-{"name":"vercel","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":99}
+{"name":"vercel","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":99}
 ,
-{"name":"netlify","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":100}
+{"name":"netlify","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":100}
 ,
-{"name":"youtube","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":100}
+{"name":"youtube","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":100}
 ,
-{"name":"linkedin","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":99}
+{"name":"linkedin","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":99}
 ,
-{"name":"github","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":100}
+{"name":"github","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":100}
 ,
-{"name":"reddit","lastStatus":" failed","lastCheck":"2026-01-27 05:28","uptime":0}
+{"name":"reddit","lastStatus":" failed","lastCheck":"2026-01-27 05:52","uptime":0}
 ,
-{"name":"wikipedia","lastStatus":" success","lastCheck":"2026-01-27 05:28","uptime":99}
+{"name":"wikipedia","lastStatus":" success","lastCheck":"2026-01-27 05:52","uptime":99}
 ,
-{"name":"amazon","lastStatus":" failed","lastCheck":"2026-01-27 05:28","uptime":0}
+{"name":"amazon","lastStatus":" failed","lastCheck":"2026-01-27 05:52","uptime":0}
 ,
-{"name":"yahoo","lastStatus":" failed","lastCheck":"2026-01-27 05:29","uptime":0}
+{"name":"yahoo","lastStatus":" failed","lastCheck":"2026-01-27 05:53","uptime":0}
 ,
-{"name":"bing","lastStatus":" success","lastCheck":"2026-01-27 05:29","uptime":100}
+{"name":"bing","lastStatus":" success","lastCheck":"2026-01-27 05:53","uptime":100}
 ,
-{"name":"apple","lastStatus":" success","lastCheck":"2026-01-27 05:29","uptime":99}
+{"name":"apple","lastStatus":" success","lastCheck":"2026-01-27 05:53","uptime":99}
 ,
-{"name":"microsoft","lastStatus":" success","lastCheck":"2026-01-27 05:29","uptime":99}
+{"name":"microsoft","lastStatus":" success","lastCheck":"2026-01-27 05:53","uptime":99}
 ,
-{"name":"cloudflare","lastStatus":" success","lastCheck":"2026-01-27 05:29","uptime":99}
+{"name":"cloudflare","lastStatus":" success","lastCheck":"2026-01-27 05:53","uptime":99}
 ,
-{"name":"spotify","lastStatus":" success","lastCheck":"2026-01-27 05:29","uptime":100}
+{"name":"spotify","lastStatus":" success","lastCheck":"2026-01-27 05:53","uptime":100}
 ,
-{"name":"netflix","lastStatus":" success","lastCheck":"2026-01-27 05:29","uptime":99}
+{"name":"netflix","lastStatus":" success","lastCheck":"2026-01-27 05:53","uptime":99}
 ,
-{"name":"dropbox","lastStatus":" success","lastCheck":"2026-01-27 05:29","uptime":100}
+{"name":"dropbox","lastStatus":" success","lastCheck":"2026-01-27 05:53","uptime":100}
 ]
